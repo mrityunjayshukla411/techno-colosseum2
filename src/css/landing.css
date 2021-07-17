@@ -1,0 +1,53 @@
+nav{
+    background: #292522 !important;
+}
+.landingBody{
+    background: url('../images/landing/landing-bg1.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+.techno-img{
+    width:50%;
+    left:50%;
+    top:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.landing-info{
+    color: white;
+    text-align: center;
+    left:50%;
+    top:90%;
+    position: absolute;
+    transform: translate(-50%,-90%);
+}
+.reg-btn{
+    background: linear-gradient(270deg, #453937 -45.28%, #99624F -14.9%, #CFA566 28.14%, #CFAB66 48.98%, #CFB266 72.79%, #99624F 112.33%, #453937 141.25%);
+border-radius: 20px;
+padding: 5%;
+padding-left: 8%;
+padding-right: 8%;
+border: 0;
+}
+
+@media all and (max-width:768px){
+    .landingBody{
+        background: url('../images/landing/landing-mobile-bg.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .techno-img{
+        width: 100%;
+        top:40%;
+        transform: translate(-50%,-40%);
+    }
+    .landing-info{
+        position: absolute;
+        top:80%;
+        left: 50%;
+        transform: translate(-50%,-80%);
+    }
+}

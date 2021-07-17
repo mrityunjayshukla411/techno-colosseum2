@@ -1,0 +1,39 @@
+.about-body{
+    color: white;
+    padding-top: 5%;
+    background: url('../images/about/about-bg.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
+.about-info{
+    padding: 10%;
+}
+.about-info h3{
+    text-align: center;
+}
+.about-info p{
+    padding: 5%;
+}
+.event-img{
+    background: url('../images/about/logo\ border-01.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 8%;
+}
+.abt-img img{
+    width:100%;
+}
+
+@media all and (max-width:768px){
+    .about-body{
+        background: url('../images/about/about-mobile-bg.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .about-info{
+        padding-top: 25%;
+        padding-bottom: 0;
+    }
+}
