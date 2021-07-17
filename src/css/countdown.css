@@ -1,0 +1,32 @@
+.countdown-body{
+    color: white;
+    text-align: center;
+    background: url('../images/about/about-bg.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.countdown-info{
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,250%);
+}
+.countdown-info h1{
+    padding-bottom: 1%;
+}
+
+@media all and (max-width:768px){
+    .countdown-body{
+        background: url('../images/about/about-mobile-bg.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .countdown-info{
+        position:relative;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,200%);
+    }
+}

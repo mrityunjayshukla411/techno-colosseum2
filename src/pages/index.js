@@ -5,6 +5,7 @@ import Domain from "./domains";
 import Faq from "./faq";
 import Contact from "./contact";
 import Navigationbar from "../components/Navigationbar";
+import CountdownPage from "./countdown";
 
 const IndexPage = () => {
   return (
@@ -18,6 +19,9 @@ const IndexPage = () => {
        </section>
        <section id="domains">
          <Domain/>
+       </section>
+       <section id="countdown">
+         <CountdownPage/>
        </section>
        <section id="faqs">
          <Faq/>
