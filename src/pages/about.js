@@ -8,7 +8,7 @@ export default function About(){
         <Container fluid className="about-body">
             <Row>
             <Col xs={12} md={6} className="about-info">
-                <h3>About the event</h3>
+                <h3><span style={{color: '#F1B416'}}>ABOUT</span> THE EVENT</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
                     do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 

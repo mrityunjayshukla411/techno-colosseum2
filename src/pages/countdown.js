@@ -48,9 +48,10 @@ class Countdown extends React.Component {
         }
 
         return (
-            <div className="countdown-body">
+            // <div className="countdown-body">
+            <Container fluid  className="countdown-body">
                 <h1>EVENT WILL BE <div className="h2-color" style={{display: 'inline-block'}}> LIVE </div> IN</h1>
-                <div className="countdown-wrapper">
+                <Row><Col xs={12}><div className="countdown-wrapper">
                     {days && (
                         <div className="countdown-item">
                             {days}
@@ -75,8 +76,9 @@ class Countdown extends React.Component {
                             <span>seconds</span>
                         </div>
                     )}
-                </div>
-            </div>
+                </div></Col></Row>
+            {/* </div> */}
+            </Container>
         );
     }
 }
@@ -91,7 +93,10 @@ function mapNumber(number, in_min, in_max, out_min, out_max) {
 
 function CountDownTimer () {
 return (
+
   <Countdown timeTillDate="05 26 2019, 6:00 am" timeFormat="MM DD YYYY, h:mm a" />
+
+
 )
 }
 

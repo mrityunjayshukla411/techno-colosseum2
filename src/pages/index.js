@@ -6,10 +6,15 @@ import Faq from "./faq";
 import Contact from "./contact";
 import Navigationbar from "../components/Navigationbar";
 import CountDownTimer from "./countdown";
+import { Helmet } from "react-helmet"
 
 const IndexPage = () => {
   return (
     <div className="main">
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Techno Colosseum</title>
+        </Helmet>
       <Navigationbar/>
        <section id="home">
          <Landing/>

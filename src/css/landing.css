@@ -12,7 +12,7 @@ nav {
 
 .landingBody{
     font-family: 'Friz Quadrata Std Regular';
-    background: url('../images/landing/landing-bg1.svg');
+    background:#191919 url('../images/landing/landing-bg1.svg');
     background-size: 109%;
     background-repeat: no-repeat;
     background-position: center;
