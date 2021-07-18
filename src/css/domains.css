@@ -119,7 +119,7 @@
         align-items: center;
     }
     .slick-slide{
-        height: 120vh;
+        height: 100vh;
     }
     .slide img{
         width: 8.5rem;
@@ -148,7 +148,9 @@
         top: 40%;
       }
       .slick-dots{
-          margin-bottom: 145%;
+        position: absolute;
+        bottom: 50%;
+        transform: translateY(100%);
       }
 }
 @media all and (max-width:320px){
