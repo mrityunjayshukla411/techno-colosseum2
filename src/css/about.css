@@ -1,11 +1,24 @@
+@font-face {
+    font-family: "Friz Quadrata Std Regular";
+    src: url("./fonts/Friz\ Quadrata\ Std\ Regular.otf");
+    src: url("./fonts/Friz\ Quadrata\ Std\ Regular.otf") format("otf"),
+    url("./fonts/Friz\ Quadrata\ Std\ Regular.otf") format("opentype"),
+    }
+
 .about-body{
+    font-family: 'Friz Quadrata Std Regular';
     color: white;
     padding-top: 5%;
-    background: url('../images/about/about-bg.svg');
+    background: url('../images/about/bg.png');
     background-size: 100%;
     background-repeat: no-repeat;
     /* background-position: center; */
 }
+
+.row {
+    margin-bottom: -30px;
+}
+
 .about-info{
     padding: 10%;
 }

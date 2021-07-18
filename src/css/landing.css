@@ -1,12 +1,23 @@
-nav{
-    background: #292522 !important;
+@font-face {
+    font-family: "Friz Quadrata Std Regular";
+    src: url("./fonts/Friz\ Quadrata\ Std\ Regular.otf");
+    src: url("./fonts/Friz\ Quadrata\ Std\ Regular.otf") format("otf"),
+    url("./fonts/Friz\ Quadrata\ Std\ Regular.otf") format("opentype"),
+    }
+
+nav {
+    background: #191919;
+
 }
+
 .landingBody{
+    font-family: 'Friz Quadrata Std Regular';
     background: url('../images/landing/landing-bg1.svg');
-    background-size: 100%;
+    background-size: 109%;
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
+    margin-top: 41px;
 }
 .techno-img{
     width:50%;
@@ -18,19 +29,31 @@ nav{
 .landing-info{
     color: white;
     text-align: center;
-    left:50%;
+    left:50.5%;
     top:90%;
     position: absolute;
     transform: translate(-50%,-90%);
+    margin-top: 40px;
+    text-align: center;
 }
+
 .reg-btn{
-    background: linear-gradient(270deg, #453937 -45.28%, #99624F -14.9%, #CFA566 28.14%, #CFAB66 48.98%, #CFB266 72.79%, #99624F 112.33%, #453937 141.25%);
-border-radius: 20px;
-padding: 5%;
-padding-left: 8%;
-padding-right: 8%;
+background: linear-gradient(270deg, #453937 -45.28%, #99624F -14.9%, #CFA566 28.14%, #CFAB66 48.98%, #CFB266 72.79%, #99624F 112.33%, #453937 141.25%);
+border-radius: 13px;
+padding: 6%;
+padding-left: 25%;
+padding-right: 22%;
 border: 0;
 }
+
+.reg-btn:hover {
+background: transparent;
+font-weight: 600;
+color: white;
+border: 2px solid #F1B416;
+transition: ease-in;
+}
+
 
 @media all and (max-width:768px){
     .landingBody{

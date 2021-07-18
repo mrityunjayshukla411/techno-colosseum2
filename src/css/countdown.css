@@ -1,32 +1,70 @@
-.countdown-body{
-    color: white;
-    text-align: center;
-    background: url('../images/about/about-bg.svg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-}
-.countdown-info{
-    position:relative;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,250%);
-}
-.countdown-info h1{
-    padding-bottom: 1%;
+@font-face {
+    font-family: "Friz Quadrata Std Regular";
+    src: url("./fonts/Friz\ Quadrata\ Std\ Regular.otf");
+    src: url("./fonts/Friz\ Quadrata\ Std\ Regular.otf") format("otf"),
+    url("./fonts/Friz\ Quadrata\ Std\ Regular.otf") format("opentype"),
+    }
+
+* {
+    box-sizing: border-box;
 }
 
-@media all and (max-width:768px){
-    .countdown-body{
-        background: url('../images/about/about-mobile-bg.svg');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
-    .countdown-info{
-        position:relative;
-        top:50%;
-        left:50%;
-        transform: translate(-50%,200%);
-    }
+.countdown-body {
+    font-family: 'Friz Quadrata Std Regular';
+    text-align: center;
+    background: url('../images/about/bg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    height: 40vh;
+    padding-top: 48px;
+}
+
+h1 {
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.h2-color {
+    color: #F1B416;
+}
+
+
+.countdown-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.countdown-item {
+    color: #fff;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 30px;
+    margin: 10px;
+    padding-top: 10px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.countdown-item span {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.countdown-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
 }

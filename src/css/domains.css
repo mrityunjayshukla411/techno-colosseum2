@@ -1,0 +1,9 @@
+.domains-body{
+    color: white;
+    padding-top: 5%;
+    background: url('../images/about/bg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    /* background-position: center; */
+}

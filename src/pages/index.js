@@ -5,7 +5,7 @@ import Domain from "./domains";
 import Faq from "./faq";
 import Contact from "./contact";
 import Navigationbar from "../components/Navigationbar";
-import CountdownPage from "./countdown";
+import CountDownTimer from "./countdown";
 
 const IndexPage = () => {
   return (
@@ -21,7 +21,7 @@ const IndexPage = () => {
          <Domain/>
        </section>
        <section id="countdown">
-         <CountdownPage/>
+         <CountDownTimer/>
        </section>
        <section id="faqs">
          <Faq/>

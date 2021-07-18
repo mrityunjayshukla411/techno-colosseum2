@@ -1,0 +1,125 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Friz Quadrata Std Regular";
+    src: url("./fonts/Friz\ Quadrata\ Std\ Regular.otf");
+    src: url("./fonts/Friz\ Quadrata\ Std\ Regular.otf") format("otf"),
+    url("./fonts/Friz\ Quadrata\ Std\ Regular.otf") format("opentype"),
+    }
+
+.faq-body {
+  color: #fff;
+  padding-top: 5%;
+  background: url('../images/about/bg.png');
+  background-size: 100%;
+  padding: 0 1em 1em;
+}
+
+h4 {
+  margin: 0;
+  line-height: 2;
+  text-align: left;
+  font-weight: 700;
+  font-size: 25px;
+  font-family: 'Friz Quadrata Std Regular';
+  color: #F1B416;
+}
+
+h2 {
+  margin: 0 0 0.5em;
+  font-weight: 500;
+  font-size: 48px;
+  font-family: 'Friz Quadrata Std Regular';
+  text-align: 'center';
+}
+
+.h2-color {
+    color: #F1B416;
+}
+
+input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+/* Accordion styles */
+.tabs {
+  overflow: hidden;
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+}
+
+
+.tab {
+  width: 100%;
+  color: white;
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+.tab-label {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  background: transparent;
+  border-width: 2px 2px 0px 2px; 
+  border-style: solid;
+  border-color: #F1B416;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tab-label::after {
+  content: "❯";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transition: all 0.35s;
+}
+
+.tab-content {
+  max-height: 0;
+  margin-bottom: 10px;
+  margin-top: -10.5px;
+  padding: 0 1em;
+  color: #C4C4C4;
+  background: transparent;
+  transition: all 0.35s;
+  border-width: 0px 2px 2px 2px;
+  border-style: solid;
+  border-color: #F1B416;
+  overflow: hidden;
+}
+
+.tab-close {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+  font-size: 0.75em;
+  cursor: pointer;
+}
+
+input:checked + .tab-label {
+  background: transparent;
+}
+input:checked + .tab-label::after {
+  transform: rotate(90deg);
+}
+input:checked ~ .tab-content {
+  max-height: 100vh;
+  padding: 1em;
+}
+
+
+@media all and (max-width:768px){
+    h2 {
+        font-size: 35px;
+        padding-top: "0px";
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .faq-body {
+        padding-top: 0%;
+    }
+}

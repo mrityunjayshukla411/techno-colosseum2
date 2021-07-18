@@ -1,4 +1,12 @@
+@font-face {
+    font-family: "Friz Quadrata Std Regular";
+    src: url("./fonts/Friz\ Quadrata\ Std\ Regular.otf");
+    src: url("./fonts/Friz\ Quadrata\ Std\ Regular.otf") format("otf"),
+    url("./fonts/Friz\ Quadrata\ Std\ Regular.otf") format("opentype"),
+    }
+
 .contact-body{
+    font-family: 'Friz Quadrata Std Regular';
     background: url('../images/landing/common-background.png');
     background-repeat: no-repeat;
     background-size:cover;
