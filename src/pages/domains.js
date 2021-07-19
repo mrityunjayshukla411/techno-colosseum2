@@ -97,9 +97,10 @@ const domains = [
 },
 
 ]
+const isBrowser = typeof window !== "undefined"
 
 export default function Domain(){
-const [wwidth,setWwidth] = useState(window.innerWidth);
+const [wwidth,setWwidth] = useState(typeof window !== `undefined` ? window.innerWidth : 768);
 const [items,setItems] = useState(3);
 
 useEffect(()=>{

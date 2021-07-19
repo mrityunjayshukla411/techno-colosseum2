@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: `/techno-colosseum`,
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://colosseum.ieeemanipal.com/",
     title: "Techno colosseum",
   },
   plugins: ["gatsby-plugin-react-helmet",
