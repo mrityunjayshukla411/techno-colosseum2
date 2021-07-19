@@ -2,10 +2,12 @@ import React from 'react';
 import { Container,Col,Row } from 'react-bootstrap';
 import "../css/about.css";
 import Techno from '../images/landing/technocolleusem-logo.svg';
+import Fade from 'react-reveal/Fade';
 
 export default function About(){
     return(
         <Container fluid className="about-body">
+            <Fade>
             <Row>
             <Col xs={12} md={6} className="about-info">
                 <h3><span style={{color: '#F1B416'}}>ABOUT</span> THE EVENT</h3>
@@ -22,7 +24,7 @@ export default function About(){
                </div>
             </Col>
             </Row>
-
+</Fade>
         </Container>
     )
 }
