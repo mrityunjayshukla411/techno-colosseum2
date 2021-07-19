@@ -20,14 +20,14 @@ const domains = [
     Courage in the face of the unknown is an important quality of any coder. 
     Race against time to solve the problems and secure your position at the top of the 
     leaderboard.`,
-    "time":"12:00pm 23/07/21 - 11:59am 25/07/21"
+    "time":"12:00pm 23/07/21 - 11:59am 24/07/21"
 },
 {
     "image":ml,
     "title":"Machine Learning",
     "desc":`It's time to test your AI knowledge in the arena. Claim victory over your opponents with your skills and efforts.
      Your speed and accuracy are what matters here.`,
-     "time":"12:00pm 23/07/21 - 11:59am 24/07/21"
+     "time":"12:00pm 24/07/21 - 11:59am 26/07/21"
 },
 {
     "image":elec,
@@ -45,14 +45,14 @@ const domains = [
     "desc":`Welcome to the Time Travellers Developers Section.
     New is good but the Old is gold for a reason. Bring out the developer in you with an 
     exhilarating race back to the good old days. Prove your mettle and you shall be rewarded.`,
-     "time":"12:00pm 23/07/21 - 11:59pm 25/07/21"
+     "time":"12:00pm 23/07/21 - 11:59pm 26/07/21"
 },
 {   "image":appdev,
     "title":"App Development",
     "desc":`Enter the app development arena to develop a full-stack or a front-end app. 
     Race against time with your arsenal of tech weaponry to develop an app with the given 
     prompt and emerge victorious.`,
-     "time":"12:00pm 23/07/21 - 11:59pm 25/07/21"
+     "time":"12:00pm 23/07/21 - 11:59pm 26/07/21"
 },
 
 {   "image":cp,
@@ -61,14 +61,14 @@ const domains = [
     Courage in the face of the unknown is an important quality of any coder. 
     Race against time to solve the problems and secure your position at the top of the 
     leaderboard.`,
-    "time":"12:00pm 23/07/21 - 11:59am 25/07/21"
+    "time":"12:00pm 23/07/21 - 11:59am 24/07/21"
 },
 {
     "image":ml,
     "title":"Machine Learning",
     "desc":`It's time to test your AI knowledge in the arena. Claim victory over your 
     opponents with your skills and efforts. Your speed and accuracy are what matters here.`,
-     "time":"12:00pm 23/07/21 - 11:59am 24/07/21"
+     "time":"12:00pm 24/07/21 - 11:59am 26/07/21"
 },
 {
     "image":elec,
@@ -86,14 +86,14 @@ const domains = [
     "desc":`Welcome to the Time Travellers Developers Section.
     New is good but the Old is gold for a reason. Bring out the developer in you with an 
     exhilarating race back to the good old days. Prove your mettle and you shall be rewarded.`,
-     "time":"12:00pm 23/07/21 - 11:59pm 25/07/21"
+     "time":"12:00pm 23/07/21 - 11:59pm 26/07/21"
 },
 {   "image":appdev,
     "title":"App Development",
     "desc":`Enter the app development arena to develop a full-stack or a front-end app. 
     Race against time with your arsenal of tech weaponry to develop an app with the given 
     prompt and emerge victorious.`,
-     "time":"12:00pm 23/07/21 - 11:59pm 25/07/21"
+     "time":"12:00pm 23/07/21 - 11:59pm 26/07/21"
 },
 
 ]

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container,Col,Row } from 'react-bootstrap';
 import "../css/about.css";
-import Techno from '../images/landing/technocolleusem-logo.svg';
+import Techno from '../images/landing/logo-01.png';
 import Fade from 'react-reveal/Fade';
 
 export default function About(){
