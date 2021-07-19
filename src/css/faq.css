@@ -6,6 +6,8 @@
     url("./fonts/Friz\ Quadrata\ Std\ Regular.otf") format("opentype"),
     }
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap');
+
 .faq-body {
   color: #fff;
   background:#191919 url('../images/about/bg.png');
@@ -22,7 +24,6 @@ h4{
   font-weight: 500;
   font-size: 16px;
   padding-right: 6px;
-  font-family: 'Friz Quadrata Std Regular';
   color: #FFF;
 }
 
@@ -30,7 +31,6 @@ h2 {
   margin: 0 0 0.5em;
   font-weight: 500;
   font-size: 48px;
-  font-family: 'Friz Quadrata Std Regular';
   text-align: 'center';
 }
 
@@ -67,6 +67,7 @@ input {
   border-color: #F1B416;
   font-weight: bold;
   cursor: pointer;
+  font-family: 'Open Sans'
 }
 
 .tab-label::after {
@@ -89,6 +90,7 @@ input {
   border-style: solid;
   border-color: #F1B416;
   overflow: hidden;
+  font-family: 'Roboto';
 }
 
 .tab-close {

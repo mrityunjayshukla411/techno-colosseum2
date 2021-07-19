@@ -5,6 +5,22 @@
     url("./fonts/Friz\ Quadrata\ Std\ Regular.otf") format("opentype"),
     }
 
+@font-face {
+        font-family: "spiegel";
+        src: url("./fonts/spiegel.ttf");
+        src: url("./fonts/spiegel.ttf") format("ttf"),
+        url("./fonts/spiegel.ttf") format("truetype"),
+        }
+
+        
+@font-face {font-family: "BeaufortW01-Regular"; 
+        src: url("//db.onlinewebfonts.com/t/2c37f3699d9728b566e9bdc5b11e5180.eot"); 
+        src: url("//db.onlinewebfonts.com/t/2c37f3699d9728b566e9bdc5b11e5180.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2c37f3699d9728b566e9bdc5b11e5180.woff2") format("woff2"), 
+        url("//db.onlinewebfonts.com/t/2c37f3699d9728b566e9bdc5b11e5180.woff") format("woff"), 
+        url("//db.onlinewebfonts.com/t/2c37f3699d9728b566e9bdc5b11e5180.ttf") format("truetype"), 
+        url("//db.onlinewebfonts.com/t/2c37f3699d9728b566e9bdc5b11e5180.svg#BeaufortW01-Regular") format("svg"); 
+    } 
+
 
 nav {
     background: #191919;
@@ -12,7 +28,7 @@ nav {
 
 p {
     font-size: 21px;
-    font-family: 'Friz Quadrata Std Regular';
+    font-family: 'BeaufortW01-Regular';
 }
 
 .main {
@@ -116,6 +132,7 @@ border: 2px solid #F1B416;
     color: white;
     font-size: 18px;
     font-weight: 100;
+    font-family: "spiegel";
   }
 
 @media all and (max-width:768px){
@@ -124,7 +141,7 @@ border: 2px solid #F1B416;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        margin-top: 25px;
+        margin-top: -12px;
     }
     .techno-img{
         width: 100%;

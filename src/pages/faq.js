@@ -6,7 +6,7 @@ export default function Faq(){
     return(
 <Container fluid className="faq-body">
 <div>
-<h2 style={{textAlign: 'center'}}>Frequently Asked <div className="h2-color" style={{display: 'inline-block'}}> Questions </div></h2>
+<h2 style={{textAlign: 'center', fontFamily: 'Friz Quadrata Std Regular'}}>Frequently Asked <div className="h2-color" style={{display: 'inline-block'}}> Questions </div></h2>
 <br />
 </div>
  <Row className="row">

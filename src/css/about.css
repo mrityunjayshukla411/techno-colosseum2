@@ -5,6 +5,18 @@
     url("./fonts/Friz\ Quadrata\ Std\ Regular.otf") format("opentype"),
     }
 
+    
+@font-face {
+    font-family: "spiegel";
+    src: url("./fonts/spiegel.ttf");
+    src: url("./fonts/spiegel.ttf") format("ttf"),
+    url("./fonts/spiegel.ttf") format("truetype"),
+    }
+
+    p {
+        font-family: "spiegel";
+    }
+
 .about-body{
     font-family: 'Friz Quadrata Std Regular';
     color: white;
@@ -23,7 +35,8 @@
     padding: 10%;
 }
 .about-info h3{
-    text-align: center;
+    text-align: left;
+    margin-left: 18px;
 }
 .about-info p{
     padding: 5%;

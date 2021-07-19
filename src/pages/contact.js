@@ -16,7 +16,7 @@ export default function Contact(){
                     </Col>
                 <Col xs={12} md={6}>
                     <div className="contact-info">
-                        <h4>CONTACT</h4>
+                        <h4 className="contact-text">CONTACT</h4>
                         <p>contactus.ieeesbmanipal@gmail.com</p>
                         <p>Amartya Khan : (+91) 70441 92241</p>
                         <p>Agrja Rastogi : (+91) 95329 92194</p>

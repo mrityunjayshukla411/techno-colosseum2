@@ -5,6 +5,27 @@
     url("./fonts/Friz\ Quadrata\ Std\ Regular.otf") format("opentype"),
     }
 
+@font-face {
+        font-family: "spiegel";
+        src: url("./fonts/spiegel.ttf");
+        src: url("./fonts/spiegel.ttf") format("ttf"),
+        url("./fonts/spiegel.ttf") format("truetype"),
+        }
+
+        
+@font-face {font-family: "BeaufortW01-Regular"; 
+        src: url("//db.onlinewebfonts.com/t/2c37f3699d9728b566e9bdc5b11e5180.eot"); 
+        src: url("//db.onlinewebfonts.com/t/2c37f3699d9728b566e9bdc5b11e5180.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2c37f3699d9728b566e9bdc5b11e5180.woff2") format("woff2"), 
+        url("//db.onlinewebfonts.com/t/2c37f3699d9728b566e9bdc5b11e5180.woff") format("woff"), 
+        url("//db.onlinewebfonts.com/t/2c37f3699d9728b566e9bdc5b11e5180.ttf") format("truetype"), 
+        url("//db.onlinewebfonts.com/t/2c37f3699d9728b566e9bdc5b11e5180.svg#BeaufortW01-Regular") format("svg"); 
+    } 
+
+.contact-text  {
+        font-family: "BeaufortW01-Regular";
+        font-size: 35px;
+    }
+
 .contact-body{
     font-family: 'Friz Quadrata Std Regular';
     background:#191919 url('../images/about/bg.png');
@@ -23,9 +44,12 @@
     position: relative;
     top:50%;
     transform: translateY(-50%);
+    font-weight: 500;
+    color: #F1B416;
 }
 .contact-info p{
     font-size: 1.2rem;
+    font-family: "spiegel";
 }
 
 .contact-info span{
