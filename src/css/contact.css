@@ -24,14 +24,20 @@
     top:50%;
     transform: translateY(-50%);
 }
-.contact-info{
-    font-size: 100%;
+.contact-info p{
+    font-size: 1.2rem;
 }
+
 .contact-info span{
-    padding-right: 5%;
+    padding-right: 8%;
+    padding-top: 13px;
 }
 @media all and (max-width:768px){
-    .contact-info{
-        font-size: 80%;
+    .contact-info p{
+        font-size: 1rem;
+    }
+
+    .social {
+        padding-top: 13px;
     }
 }

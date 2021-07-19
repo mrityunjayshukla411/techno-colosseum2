@@ -14,6 +14,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 110vh;
+    text-align: center;
 }
 .domain-body img{
     width:200px;
@@ -39,10 +40,12 @@
   }
   .slide .domain-info{
       display: none;
+      padding-top: 20px;
   }
   .domain-info p{
    padding: 4%;
    padding-bottom: 1%;
+   font-size: 14px;
   }
   
   .activeSlide {
@@ -102,6 +105,7 @@
   color:#F1B416;
 }
 
+
 @media all and (max-width:768px){
     .domain-body{
       background:#191919 url('../images/about/bg.png');
@@ -109,6 +113,15 @@
         background-position: center;
         background-size: cover;
     }
+
+    .main-slider{
+      padding:0;
+  }
+
+    h1 {
+      padding-top: 35px;
+      margin-left: 5%;
+    } 
     .slide{
         transform: scale(0.65);
         align-items: center;
@@ -136,6 +149,7 @@
         display: block;
         margin-left: -85px;
         width: 18rem;
+        margin-top: 30px;
     }
     .next {
         right: 5%;

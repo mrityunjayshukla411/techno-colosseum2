@@ -65,7 +65,7 @@ export default function Faq(){
         <input type="checkbox" id="chck6" />
         <label className="tab-label" htmlFor="chck6"><h4>I can't find my question here. </h4></label>
         <div className="tab-content">
-        Reach out to us at [contactus.ieeesbmanipal@gmail.com](mailto:contactus.ieeesbmanipal@gmail.com) for any queries. Participants can also put up any further queries on our discord server after registration.
+        Reach out to us at contactus.ieeesbmanipal@gmail.com for any queries. Participants can also put up any further queries on our discord server after registration.
         </div>
       </div>
     </div>

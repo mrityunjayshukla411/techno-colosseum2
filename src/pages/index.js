@@ -7,6 +7,7 @@ import Contact from "./contact";
 import Navigationbar from "../components/Navigationbar";
 import CountDownTimer from "./countdown";
 import { Helmet } from "react-helmet"
+import "../css/landing.css"
 
 const IndexPage = () => {
   return (

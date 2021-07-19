@@ -11,7 +11,6 @@ import "../css/domains.css";
 
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
-
 const domains = [
 
 {   "image":cp,
@@ -20,14 +19,14 @@ const domains = [
     Courage in the face of the unknown is an important quality of any coder. 
     Race against time to solve the problems and secure your position at the top of the 
     leaderboard.`,
-    "time":"12:00pm 23/07/21 - 11:59am 24/07/21"
+    "time": "12:00pm, 23rd July - 11:59am, 24th July"
 },
 {
     "image":ml,
     "title":"Machine Learning",
     "desc":`It's time to test your AI knowledge in the arena. Claim victory over your opponents with your skills and efforts.
      Your speed and accuracy are what matters here.`,
-     "time":"12:00pm 24/07/21 - 11:59am 26/07/21"
+     "time": "12:00pm, 24th July - 11:59am, 26th July"
 },
 {
     "image":elec,
@@ -37,7 +36,7 @@ const domains = [
     It's time to rewrite history our way. So go out in that rising sun with your circuitry 
     skills sharp and ready to clash, devices crackling in arrival and fill the arena with
      electrifying energy. Battleface On!`,
-     "time":"12:00pm 25/07/21 - 12:00pm 26/07/21"
+     "time":"12:00pm, 25th July - 12:00pm, 26th July"
 },
 {
     "image":webdev,
@@ -45,14 +44,14 @@ const domains = [
     "desc":`Welcome to the Time Travellers Developers Section.
     New is good but the Old is gold for a reason. Bring out the developer in you with an 
     exhilarating race back to the good old days. Prove your mettle and you shall be rewarded.`,
-     "time":"12:00pm 23/07/21 - 11:59pm 26/07/21"
+     "time":"12:00pm, 23rd July - 11:59pm, 26th July"
 },
 {   "image":appdev,
     "title":"App Development",
     "desc":`Enter the app development arena to develop a full-stack or a front-end app. 
     Race against time with your arsenal of tech weaponry to develop an app with the given 
     prompt and emerge victorious.`,
-     "time":"12:00pm 23/07/21 - 11:59pm 26/07/21"
+     "time":"12:00pm, 23rd July - 11:59pm, 26th July"
 },
 
 {   "image":cp,
@@ -61,14 +60,14 @@ const domains = [
     Courage in the face of the unknown is an important quality of any coder. 
     Race against time to solve the problems and secure your position at the top of the 
     leaderboard.`,
-    "time":"12:00pm 23/07/21 - 11:59am 24/07/21"
+    "time":"12:00pm, 23rd July - 11:59am, 24th July"
 },
 {
     "image":ml,
     "title":"Machine Learning",
     "desc":`It's time to test your AI knowledge in the arena. Claim victory over your 
     opponents with your skills and efforts. Your speed and accuracy are what matters here.`,
-     "time":"12:00pm 24/07/21 - 11:59am 26/07/21"
+     "time":"12:00pm, 23rd July - 11:59am, 26th July"
 },
 {
     "image":elec,
@@ -78,7 +77,7 @@ const domains = [
     It's time to rewrite history our way. So go out in that rising sun with your circuitry 
     skills sharp and ready to clash, devices crackling in arrival and fill the arena with
      electrifying energy. Battleface On!`,
-     "time":"12:00pm 25/07/21 - 12:00pm 26/07/21"
+     "time":"12:00pm, 25th July - 11:59am, 26th July"
 },
 {
     "image":webdev,
@@ -86,14 +85,14 @@ const domains = [
     "desc":`Welcome to the Time Travellers Developers Section.
     New is good but the Old is gold for a reason. Bring out the developer in you with an 
     exhilarating race back to the good old days. Prove your mettle and you shall be rewarded.`,
-     "time":"12:00pm 23/07/21 - 11:59pm 26/07/21"
+     "time":"12:00pm, 23rd July - 11:59pm, 26th July"
 },
 {   "image":appdev,
     "title":"App Development",
     "desc":`Enter the app development arena to develop a full-stack or a front-end app. 
     Race against time with your arsenal of tech weaponry to develop an app with the given 
     prompt and emerge victorious.`,
-     "time":"12:00pm 23/07/21 - 11:59pm 26/07/21"
+     "time":"12:00pm, 23rd July - 11:59pm, 26th July"
 },
 
 ]

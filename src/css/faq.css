@@ -19,10 +19,11 @@ h4{
   margin: 0;
   line-height: 2;
   text-align: left;
-  font-weight: 700;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  padding-right: 6px;
   font-family: 'Friz Quadrata Std Regular';
-  color: #F1B416;
+  color: #FFF;
 }
 
 h2 {

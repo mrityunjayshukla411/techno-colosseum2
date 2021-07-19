@@ -11,13 +11,13 @@ export default function Navigationbar(){
 <Navbar.Toggle aria-controls="basic-navbar-nav" variant="dark"/>
 <Navbar.Collapse id="basic-navbar-nav">
   <Nav className="ml-auto">
-    <Nav.Link href="#about" style={{color: 'white'}}>ABOUT
+    <Nav.Link href="#about" className="navtext">ABOUT
     </Nav.Link>
-    <Nav.Link href="#domains" style={{color: 'white'}}>DOMAINS
+    <Nav.Link href="#domains" className="navtext">DOMAINS
     </Nav.Link>
-    <Nav.Link href="#faqs" style={{color: 'white'}}>FAQ
+    <Nav.Link href="#faqs" className="navtext">FAQ
     </Nav.Link>
-    <Nav.Link href="#contact" style={{color: 'white'}}>
+    <Nav.Link href="#contact" className="navtext">
     CONTACT
     </Nav.Link>
   </Nav>
