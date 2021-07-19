@@ -8,6 +8,10 @@
 @import "~slick-carousel/slick/slick-theme.css";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap');
 
+
+.domaintext {
+  padding-top: 65px;
+}
 .domain-body{
   font-family: 'Friz Quadrata Std Regular';
     color: white;
@@ -70,6 +74,8 @@
   .main-slider{
       padding:0;
       padding-top:10%;
+      margin-top: -50px;
+      margin-bottom: -50px;
   }
   
   .arrow {

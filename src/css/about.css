@@ -36,10 +36,11 @@
 }
 .about-info h3{
     text-align: left;
-    margin-left: 18px;
+    margin-bottom: 15px;
 }
 .about-info p{
-    padding: 5%;
+    padding: 0%;
+    font-size: 17px;
 }
 .event-img{
     background: url('../images/about/logo-border-01.png');

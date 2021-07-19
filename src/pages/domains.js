@@ -143,7 +143,7 @@ useEffect(()=>{
     
     return(
         <Container fluid className="domain-body">
-            <h1>DOMAINS</h1>
+            <h1 className="domaintext">DOMAINS</h1>
            
         {/* <Carousel slides={slides} onChange={handleChange}/> */}
         <Slider className="main-slider"{...settings}>
