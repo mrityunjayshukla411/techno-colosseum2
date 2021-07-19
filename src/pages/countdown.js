@@ -94,7 +94,7 @@ function mapNumber(number, in_min, in_max, out_min, out_max) {
 function CountDownTimer () {
 return (
 
-  <Countdown timeTillDate="05 26 2019, 6:00 am" timeFormat="MM DD YYYY, h:mm a" />
+  <Countdown timeTillDate="07 22 2021, 6:30 am" timeFormat="MM DD YYYY, h:mm a" />
 
 
 )

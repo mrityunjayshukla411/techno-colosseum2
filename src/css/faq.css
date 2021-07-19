@@ -8,19 +8,19 @@
 
 .faq-body {
   color: #fff;
-  background:#191919 url('../images/about/bg.svg');
+  background:#191919 url('../images/about/bg.png');
   background-size: 100%;
   padding: 0 1em 1em;
   padding-top: 10%;
   padding-bottom: 10%;
 }
 
-h4 {
+h4{
   margin: 0;
   line-height: 2;
   text-align: left;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Friz Quadrata Std Regular';
   color: #F1B416;
 }
@@ -111,6 +111,9 @@ input:checked ~ .tab-content {
 
 
 @media all and (max-width:768px){
+  .faq-body{
+    background:#191919 url('../images/about/about-mobile-bg.png');
+  }
     h2 {
         font-size: 35px;
         padding-top: "0px";

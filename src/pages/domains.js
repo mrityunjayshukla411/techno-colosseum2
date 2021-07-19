@@ -37,7 +37,7 @@ const domains = [
     It's time to rewrite history our way. So go out in that rising sun with your circuitry 
     skills sharp and ready to clash, devices crackling in arrival and fill the arena with
      electrifying energy. Battleface On!`,
-     "time":"12"
+     "time":"12:00pm 25/07/21 - 12:00pm 26/07/21"
 },
 {
     "image":webdev,
@@ -78,7 +78,7 @@ const domains = [
     It's time to rewrite history our way. So go out in that rising sun with your circuitry 
     skills sharp and ready to clash, devices crackling in arrival and fill the arena with
      electrifying energy. Battleface On!`,
-     "time":"12"
+     "time":"12:00pm 25/07/21 - 12:00pm 26/07/21"
 },
 {
     "image":webdev,

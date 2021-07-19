@@ -12,12 +12,18 @@ nav {
 
 .landingBody{
     font-family: 'Friz Quadrata Std Regular';
-    background:#191919 url('../images/landing/landing-bg1.svg');
+    background:#191919 url('../images/landing/landing-bg1.jpg');
     background-size: 109%;
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
     margin-top: 41px;
+}
+.landingBody a{
+    color: black;
+}
+.landingBody a:hover{
+    color: white;
 }
 .techno-img{
     width:50%;
@@ -57,7 +63,7 @@ transition: ease-in;
 
 @media all and (max-width:768px){
     .landingBody{
-        background: url('../images/landing/landing-mobile-bg.svg');
+        background: url('../images/landing/landing-mobile-bg.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;

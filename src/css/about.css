@@ -9,7 +9,7 @@
     font-family: 'Friz Quadrata Std Regular';
     color: white;
     padding-top: 5%;
-    background:#191919 url('../images/about/bg.svg');
+    background:#191919 url('../images/about/bg.png');
     background-size: 100%;
     background-repeat: no-repeat;
     /* background-position: center; */
@@ -29,7 +29,7 @@
     padding: 5%;
 }
 .event-img{
-    background: url('../images/about/logo-border-01.svg');
+    background: url('../images/about/logo-border-01.png');
     background-size: contain;
     background-repeat: no-repeat;
     padding: 8%;
@@ -40,8 +40,7 @@
 
 @media all and (max-width:768px){
     .about-body{
-        background: url('../images/about/about-mobile-bg.svg');
-        background: url('../images/about/bg.svg');
+        background:#191919 url('../images/about/about-mobile-bg.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;

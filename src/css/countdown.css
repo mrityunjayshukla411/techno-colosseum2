@@ -12,13 +12,9 @@
 .countdown-body {
     font-family: 'Friz Quadrata Std Regular';
     text-align: center;
-    background:#191919 url('../images/about/bg.svg');
-    /* background: url('../images/about/about-mobile-bg.svg'); */
+    background:#191919 url('../images/about/bg.png');
     background-size: cover;
-    /* background-size: 100%; */
     background-repeat: no-repeat;
-    background-color: transparent;
-    /* height: 40vh; */
     padding-top: 48px;
     padding-bottom: 5%;
 }
@@ -70,4 +66,12 @@ h1 {
     left: 0;
     width: 100px;
     height: 100px;
+}
+@media all and (max-width:768px){
+    .countdown-body{
+        background:#191919 url('../images/about/about-mobile-bg.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
 }

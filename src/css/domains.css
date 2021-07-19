@@ -10,7 +10,7 @@
 .domain-body{
   font-family: 'Friz Quadrata Std Regular';
     color: white;
-    background: url('../images/about/bg.svg');
+    background:#191919 url('../images/about/bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 110vh;
@@ -104,7 +104,7 @@
 
 @media all and (max-width:768px){
     .domain-body{
-        background: url('../images/about/bg.svg');
+      background:#191919 url('../images/about/bg.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
