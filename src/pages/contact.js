@@ -18,8 +18,8 @@ export default function Contact(){
                     <div className="contact-info">
                         <h4 className="contact-text">CONTACT</h4>
                         <p>contactus.ieeesbmanipal@gmail.com</p>
-                        <p>Amartya Khan : (+91) 70441 92241</p>
-                        <p>Agrja Rastogi : (+91) 95329 92194</p>
+                        <p>BV Muskan : (+91) 76320 05225</p>
+                        <p>Arshia Puthran : (+91) 91373 19297</p>
                         <div className="social">
                         <span><a href="https://instagram.com/ieeesbm?utm_medium=copy_link" target="_blank" rel="noopener noreferrer"><img src={instalogo}/></a></span>
                         <span><a href="https://ieeemanipal.com/" target="_blank" rel="noopener noreferrer"><img src={weblogo}/></a></span>

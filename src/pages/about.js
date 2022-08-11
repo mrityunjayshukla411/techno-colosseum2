@@ -11,14 +11,7 @@ export default function About(){
             <Row>
             <Col xs={12} md={6} className="about-info">
                 <h3><span style={{color: '#F1B416'}}>ABOUT</span> THE EVENT</h3>
-                <p>Set in medieval times, Techno Colosseum is a multi-domain event that 
-                    tests your skills in various technical fields. This three-day intense 
-                    challenge comprises coding, electronics, machine learning, web dev, and 
-                    app dev. These events will range from written tests, time-bound development projects, 
-                    and conventional 
-                    competitive coding. Contestants get a chance to go solo and exhibit their expertise by 
-                    engaging in tasks of any of the five domains. It's time to arm up with your Gladius, 
-                    become a Gladiator, and take over Techno Colosseum!</p>
+                <p>Set in medieval times, Techno Colosseum is a multi-domain event that tests your skills in various technical fields. This three-day intense challenge comprises coding, electronics, machine learning, web dev, app dev and design. These events will range from time-bound development projects, and conventional competitive coding. Contestants get a chance to go solo and exhibit their expertise by engaging in tasks of any of the six domains. It's time to arm up with your Gladius, become a Gladiator, and take over Techno Colosseum!</p>
             </Col>
             <Col xs={12} md={6} className="abt-img">
                <div className="event-img">
