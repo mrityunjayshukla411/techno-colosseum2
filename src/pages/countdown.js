@@ -54,25 +54,26 @@ class Countdown extends React.Component {
                 <Row><Col xs={12}><div className="countdown-wrapper">
                     {days && (
                         <div className="countdown-item">
-                            {days}
+                           0 {/* {days} */}
                             <span>days</span>
                         </div>
                     )}
                     {hours && (
                         <div className="countdown-item">
-                            {hours}
+                            0 
+                            {/* {hours} */}
                             <span>hours</span>
                         </div>
                     )}
                     {minutes && (
                         <div className="countdown-item">
-                            {minutes}
+                            0 {/* {minutes} */}
                             <span>minutes</span>
                         </div>
                     )}
                     {seconds && (
                         <div className="countdown-item">
-                            {seconds}
+                            0 {/* {seconds} */}
                             <span>seconds</span>
                         </div>
                     )}
